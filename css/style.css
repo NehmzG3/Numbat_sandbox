@@ -1,0 +1,19 @@
+/*color codes
+    black: 040f0f
+    dark green: 248232
+    primary: 2ba84a
+    gray: d0dcdc
+    white: fcfffc
+*/
+
+
+.bgnav {
+  background-color: #248232;
+}
+
+#active {
+  background-color: #2ba84a;
+  color: #fcfffc;
+}
+
+
