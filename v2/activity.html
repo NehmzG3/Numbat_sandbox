@@ -70,7 +70,102 @@
             </div>
         </div>
         <div class="col py-3">
-           Content area
+          <div class="header">
+            <h2>Activity Manager</h2>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addActivityModal">
+              Add Activity
+            </button>
+          </div> 
+          Content area
+           <div class="container activity-manager-container">
+            <div class="row">
+              <div class="col-12">
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th scope="col">ID</th>
+                      <th scope="col">Activity Name</th>
+                      <th scope="col">Programs</th>
+                      <th scope="col">Status</th>
+                      <th scope="col">Actions</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Activity Name</td>
+                        <td>
+                          <ul>
+                            
+                              <li>615 - <span class="badge bg-secondary">60%</span></li>
+                            
+                              <li>665 - <span class="badge bg-secondary">40%</span></li>
+                            
+                          </ul>
+                        </td>
+                        <td>user_defined</td>
+                        <td>
+                          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#editActivityModal1">
+                            Edit
+                          </button>
+                          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteActivityModal1">
+                            Delete
+                          </button>
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Activity 3</td>
+                        <td>
+                          <ul>
+                            
+                              <li>414 - <span class="badge bg-secondary">50%</span></li>
+                            
+                              <li>424 - <span class="badge bg-secondary">50%</span></li>
+                            
+                          </ul>
+                        </td>
+                        <td>emergency</td>
+                        <td>
+                          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#editActivityModal3">
+                            Edit
+                          </button>
+                          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteActivityModal3">
+                            Delete
+                          </button>
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>sdf</td>
+                        <td>
+                          <ul>
+                            
+                              <li>32 - <span class="badge bg-secondary">23%</span></li>
+                            
+                              <li>3 - <span class="badge bg-secondary">2%</span></li>
+                            
+                          </ul>
+                        </td>
+                        <td>sd</td>
+                        <td>
+                          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#editActivityModal4">
+                            Edit
+                          </button>
+                          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteActivityModal4">
+                            Delete
+                          </button>
+                        </td>
+                      </tr>
+                    
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
         </div>
     </div>
 </div>

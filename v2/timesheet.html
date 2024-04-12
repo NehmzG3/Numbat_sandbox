@@ -71,6 +71,250 @@
         </div>
         <div class="col py-3">
            Content area
+           <div class="container">
+            <div class="row">
+              <div class="col-auto">
+                <a href="/timesheetEntry" class="btn btn-primary" id="addTimesheetBtn"><i class="fas fa-plus"></i> PV Timesheet</a>
+              </div>
+              <div class="col-auto">
+                <a href="/emergencyEntry" class="btn btn-danger" id="addEmergencyBtn"><i class="fas fa-plus"></i> Emergency</a>
+              </div>
+              <div class="col-auto">
+                <a href="/plannedLeave" class="btn btn-danger" id="addEmergencyBtn"><i class="fas fa-plus"></i> Planned Leave</a>
+              </div>
+            </div>
+          
+            <div class="time-sheet-container table-responsive">
+              <table class="table" id="timesheetTable">
+                <thead>
+                  <tr>
+                    <th scope="col" class="hidden" style="display: none;">#</th>
+                    <th scope="col">Work Date</th>
+                    <th scope="col">Time Start</th>
+                    <th scope="col">Time Finish</th>
+                    <th scope="col">Time Total</th>
+                    <th scope="col" class="hidden" style="display: none;">Time Accrued</th>
+                    <th scope="col" class="hidden" style="display: none;">Time Til</th>
+                    <th scope="col" class="hidden" style="display: none;">Time Leave</th>
+                    <th scope="col" class="hidden" style="display: none;">Time Overtime</th>
+                    <th scope="col" class="hidden" style="display: none;">Time Comm Svs</th>
+                    <th scope="col">Comment</th>
+                    <th scope="col" class="hidden" style="display: none;">Location ID</th>
+                    <th scope="col">Activity</th>
+                    <th scope="col" class="hidden" style="display: none;">Notes</th>
+                    <th scope="col">Actions</th>
+                  </tr>
+                </thead>
+          
+                <tbody>
+                  
+                   
+                  
+                   
+                  <tr class="table-success  
+                    ">
+                    <th class="hidden" scope="row" style="display: none;">2</th>
+                    <td class="work-date" style="width: 200px;">Jan 02, 2024 <br>  </td>
+                    <td>09:00</td>
+                    <td>18:00</td>
+                    <td>09:00</td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;">1.0000</td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td>sdfg</td>
+                    <td class="hidden" style="display: none;">1</td>
+                    <td></td>
+                    <td class="hidden" style="display: none;"></td>
+                    
+                    <td>
+                      <!-- Added buttons for actions -->
+                      <a href="/deleteTimesheet/74">Delete</a>
+                      <a href="/approveTimesheet/74">Approve</a>
+                      <a href="/timesheetEntry?userId=1">View</a>
+                    </td>
+                    
+                  </tr>
+                  
+                   
+                  <tr class="table-success  
+                    ">
+                    <th class="hidden" scope="row" style="display: none;">3</th>
+                    <td class="work-date" style="width: 200px;">Jan 03, 2024 <br>  </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td>Approved Leave</td>
+                    <td class="hidden" style="display: none;">blah</td>
+                    
+                    <td>
+                      <!-- Added buttons for actions -->
+                      <a href="/deleteTimesheet/91">Delete</a>
+                      <a href="/approveTimesheet/91">Approve</a>
+                      <a href="/timesheetEntry?userId=1">View</a>
+                    </td>
+                    
+                  </tr>
+                  
+                   
+                  <tr class=" 
+                    ">
+                    <th class="hidden" scope="row" style="display: none;">4</th>
+                    <td class="work-date" style="width: 200px;">Jan 04, 2024 <br>  </td>
+                    <td>09:00</td>
+                    <td>17:00</td>
+                    <td>08:00</td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td></td>
+                    <td class="hidden" style="display: none;">1</td>
+                    <td></td>
+                    <td class="hidden" style="display: none;"></td>
+                    
+                    <td>
+                      <!-- Added buttons for actions -->
+                      <a href="/deleteTimesheet/66">Delete</a>
+                      <a href="/approveTimesheet/66">Approve</a>
+                      <a href="/timesheetEntry?userId=1">View</a>
+                    </td>
+                    
+                  </tr>
+                  
+                   
+                  <tr class=" 
+                    ">
+                    <th class="hidden" scope="row" style="display: none;">5</th>
+                    <td class="work-date" style="width: 200px;">Jan 05, 2024 <br>  </td>
+                    <td>09:00</td>
+                    <td>17:00</td>
+                    <td>08:00</td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td></td>
+                    <td class="hidden" style="display: none;">1</td>
+                    <td></td>
+                    <td class="hidden" style="display: none;"></td>
+                    
+                    <td>
+                      <!-- Added buttons for actions -->
+                      <a href="/deleteTimesheet/65">Delete</a>
+                      <a href="/approveTimesheet/65">Approve</a>
+                      <a href="/timesheetEntry?userId=1">View</a>
+                    </td>
+                    
+                  </tr>
+                  
+                   
+                  <tr class=" 
+                    ">
+                    <th class="hidden" scope="row" style="display: none;">6</th>
+                    <td class="work-date" style="width: 200px;">Jan 06, 2024 <br>  </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td></td>
+                    <td class="hidden" style="display: none;"></td>
+                    
+                    <td>&nbsp;</td>
+                    
+                  </tr>
+                  
+                   
+                  <tr class=" 
+                    ">
+                    <th class="hidden" scope="row" style="display: none;">7</th>
+                    <td class="work-date" style="width: 200px;">Jan 07, 2024 <br>  </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td></td>
+                    <td class="hidden" style="display: none;"></td>
+                    
+                    <td>&nbsp;</td>
+                    
+                  </tr>
+                  
+                   
+                  <tr class=" 
+                    ">
+                    <th class="hidden" scope="row" style="display: none;">8</th>
+                    <td class="work-date" style="width: 200px;">Jan 08, 2024 <br>  </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td></td>
+                    <td class="hidden" style="display: none;"></td>
+                    
+                    <td>&nbsp;</td>
+                    
+                  </tr>
+                  
+                   
+
+                  
+                  
+                  
+                   
+                  <tr class=" 
+                    ">
+                    <th class="hidden" scope="row" style="display: none;">366</th>
+                    <td class="work-date" style="width: 200px;">Dec 31, 2024 <br>  </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td></td>
+                    <td class="hidden" style="display: none;"></td>
+                    <td></td>
+                    <td class="hidden" style="display: none;"></td>
+                    
+                    <td>&nbsp;</td>
+                    
+                  </tr>
+                  
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
     </div>
 </div>
