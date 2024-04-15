@@ -5,471 +5,457 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Numbat</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <script src="https://kit.fontawesome.com/560dca36fa.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
   <div class="container-fluid">
     <div class="row flex-nowrap">
-        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bgnav">
-            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 min-vh-100">
-                <a href="./home.html" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto ">
-                    <span class="fs-5 d-none d-sm-inline"><img src="../images/logo.png" alt="logo"></span>
-                </a>
-                <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
-                    <li class="nav-item">
-                        <a href="./home.html" class="nav-link link-light">
-                          <i class="bi bi-house-fill"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
-                        </a>
-                    </li>
+      <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bgprimary">
+        <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-3 min-vh-100">
+          <a href="./home.html" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto ">
+            <span class="fs-5 d-none d-sm-inline"><img src="../images/logo.png" alt="logo"></span>
+          </a>
+          <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+            <li class="nav-item">
+              <a href="./home.html" class="nav-link link-light">
+                <i class="bi bi-house-fill"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
+              </a>
+            </li>
 
-                    <li class="nav-item">
-                      <a href="./timesheet.html" class="nav-link link-light">
-                        <i class="bi bi-calendar-week-fill"></i> <span class="ms-1 d-none d-sm-inline">Timesheet</span>
-                      </a>
-                    </li>
+            <li class="nav-item">
+              <a href="./timesheet.html" class="nav-link link-light">
+                <i class="bi bi-calendar-week-fill"></i> <span class="ms-1 d-none d-sm-inline">Timesheet</span>
+              </a>
+            </li>
 
-                  <li class="nav-item">
-                    <a href="./users.html" class="nav-link link-light">
-                      <i class="bi bi-people-fill"></i> <span class="ms-1 d-none d-sm-inline">Users</span>
-                    </a>
-                  </li>
-                  
-                  <li class="nav-item">
-                    <a href="./location.html" class="nav-link active" id="active">
-                      <i class="bi bi-geo-alt-fill"></i> <span class="ms-1 d-none d-sm-inline">Location</span>
-                    </a>
-                  </li>
-                    
-                  <li>
-                      <a href="./activity.html" class="nav-link link-light">
-                        <i class="bi bi-activity"></i></i> <span class="ms-1 d-none d-sm-inline">Activity</span>
-                      </a>
-                  </li>
-                </ul>
+            <li class="nav-item">
+              <a href="./users.html" class="nav-link link-light">
+                <i class="bi bi-people-fill"></i> <span class="ms-1 d-none d-sm-inline">Users</span>
+              </a>
+            </li>
 
-                <hr>
+            <li class="nav-item">
+              <a href="./location.html" class="nav-link active" id="active">
+                <i class="bi bi-geo-alt-fill"></i> <span class="ms-1 d-none d-sm-inline">Location</span>
+              </a>
+            </li>
 
-                <div class="dropdown pb-4">
-                    <a href="#" class="d-flex align-items-center text-decoration-none dropdown-toggle link-light" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img src="https://github.com/mdo.png" alt="profile-photo" width="30" height="30" class="rounded-circle">
-                        <span class="d-none d-sm-inline mx-1">Name</span>
-                    </a>
+            <li>
+              <a href="./activity.html" class="nav-link link-light">
+                <i class="bi bi-activity"></i></i> <span class="ms-1 d-none d-sm-inline">Activity</span>
+              </a>
+            </li>
+          </ul>
 
-                    <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
-                        <li><a class="dropdown-item" href="#">Settings</a></li>
-                        <li><a class="dropdown-item" href="#">Profile</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Sign out</a></li>
-                    </ul>
-                </div>
-            </div>
+          <hr>
+
+          <div class="dropdown pb-4">
+            <a href="#" class="d-flex align-items-center text-decoration-none dropdown-toggle link-light"
+              id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="https://github.com/mdo.png" alt="profile-photo" width="30" height="30" class="rounded-circle">
+              <span class="d-none d-sm-inline mx-1">Name</span>
+            </a>
+
+            <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
+              <li><a class="dropdown-item" href="#">Settings</a></li>
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Sign out</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="col py-3">
-           Content area
-           <div class="location">
-            <div class="header">
-              <h2>Location Manager</h2>
-              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addLocationModal">
-                  Add Location
-                </button>
-            </div>
-          
-            <!-- Add Location Modal -->
-          <div class="modal fade" id="addLocationModal" tabindex="-1" aria-labelledby="addLocationModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="addLocationModalLabel">Add Location</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <form id="addLocationForm" action="/locationManager/add" method="POST">
+      </div>
+
+      <section class="col py-3">
+        <div class="container pt-2 bglight">
+          <h1 class="page-title mb-4">Location</h1>
+          <button type="button" class="btn btnprimary mb-3" data-bs-toggle="modal" data-bs-target="#addLocationModal">
+            <i class="fa-solid fa-circle-plus"></i> Add Location
+          </button>
+
+
+          <!-- Add Location Modal -->
+          <div class="modal fade" id="addLocationModal" tabindex="-1" aria-labelledby="addLocationModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="addLocationModalLabel">Add Location</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form id="addLocationForm" action="/locationManager/add" method="POST">
                   <div class="modal-body">
                     <div class="mb-3">
                       <label for="addLocationId" class="form-label">Location Id</label>
                       <input type="text" class="form-control" id="addLocationId" name="location_id" required="">
                     </div>
-                      <div class="mb-3">
-                        <label for="addLocationName" class="form-label">Location Name</label>
-                        <input type="text" class="form-control" id="addLocationName" name="locationName" required="">
-                      </div>
-                      <div class="mb-3">
-                        <label for="addLocationRole" class="form-label">Location Role</label>
-                        <input type="text" class="form-control" id="addLocationRole" name="locationRole">
-                      </div>
-                   
+                    <div class="mb-3">
+                      <label for="addLocationName" class="form-label">Location Name</label>
+                      <input type="text" class="form-control" id="addLocationName" name="locationName" required="">
+                    </div>
+                    <div class="mb-3">
+                      <label for="addLocationRole" class="form-label">Location Role</label>
+                      <input type="text" class="form-control" id="addLocationRole" name="locationRole">
+                    </div>
+
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     <button type="submit" class="btn btn-primary" onclick="addLocation()">Add</button>
                   </div>
-               </form>
+                </form>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Edit Modal -->
+          <div class="container location-manager-container">
+
+            <div class="modal fade" id="form145" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="false">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header border-bottom-0">
+                    <h5 class="modal-title" id="exampleModalLabel">Edit Location</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">×</span>
+                    </button>
+                  </div>
+                  <form method="POST" action="/locationManager/edit/2" id="editForm">
+                    <input type="hidden" name="locationId" value="145">
+
+
+
+                    <div class="modal-body">
+                      <div class="form-group">
+                        <label for="location_id">Location Id</label>
+                        <input type="text" class="form-control" name="location_id" value="145">
+                      </div>
+                      <div class="form-group">
+                        <label for="locationName">Location Name</label>
+                        <input type="text" class="form-control" name="locationName" value="Alexandra">
+                      </div>
+                      <div class="form-group">
+                        <label for="locationRole">Location Role</label>
+                        <input type="text" class="form-control" name="locationRole" value="">
+                      </div>
+                    </div>
+                    <div class="modal-footer border-top-0 d-flex justify-content-center">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Close
+                      </button>
+                      <button type="submit" class="btn ">Save</button>
+                    </div>
+                  </form>
                 </div>
               </div>
             </div>
-            
-          
-            <!-- Edit Modal -->
-            <div class="container location-manager-container">
-              
-              <div class="modal fade" id="form145" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="false">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header border-bottom-0">
-                      <h5 class="modal-title" id="exampleModalLabel">Edit Location</h5>
-                      <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">×</span>
+
+
+
+            <!-- Confirmation Modal -->
+            <div class="modal fade" id="deleteLocation127364" tabindex="-1" aria-labelledby="confirmationModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="confirmationModalLabel">
+                      Confirmation
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Are you sure you want to delete this location?
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                      Cancel
+                    </button>
+
+                    <form action="/locationManager/delete" method="post">
+
+                      <input type="hidden" name="locationId" value="175">
+                      <button type="submit" class="btn " id="confirmDeleteBtn">
+
+                        Delete
                       </button>
-                    </div>
-                    <form method="POST" action="/locationManager/edit/2" id="editForm">
-                      <input type="hidden" name="locationId" value="145">
-          
-                   
-          
-                      <div class="modal-body">
-                        <div class="form-group">
-                          <label for="location_id">Location Id</label>
-                          <input type="text" class="form-control" name="location_id" value="145">
-                        </div>
-                        <div class="form-group">
-                          <label for="locationName">Location Name</label>
-                          <input type="text" class="form-control" name="locationName" value="Alexandra">
-                        </div>
-                        <div class="form-group">
-                          <label for="locationRole">Location Role</label>
-                          <input type="text" class="form-control" name="locationRole" value="">
-                        </div>
-                      </div>
-                      <div class="modal-footer border-top-0 d-flex justify-content-center">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                          Close
-                        </button>
-                        <button type="submit" class="btn btn-success">Save</button>
-                      </div>
                     </form>
                   </div>
                 </div>
               </div>
-          
+            </div>
 
-          
-              <!-- Confirmation Modal -->
-              <div class="modal fade" id="deleteLocation127364" tabindex="-1" aria-labelledby="confirmationModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="confirmationModalLabel">
-                        Confirmation
-                      </h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      Are you sure you want to delete this location?
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                        Cancel
-                      </button>
-          
-                      <form action="/locationManager/delete" method="post">
-          
-                          <input type="hidden" name="locationId" value="175">
-                          <button type="submit" class="btn btn-danger" id="confirmDeleteBtn">
-                      
-                        Delete
-                      </button></form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-          
-              <!-- Edit modal Ends -->
-          
-              <div class="row">
-                <div class="col-12">
-                  <table class="table table-bordered">
-                    <thead>
-                      <tr>
-                        <th scope="col">ID</th>
-                        <th scope="col">Location Name</th>
-                        <th scope="col">Role Id</th>
-                        <th scope="col">Actions</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      
-                      <tr>
-                        <th scope="row">145</th>
-                        <td>Alexandra</td>
-                        <td></td>
-          
-                        <td>
-                          <!-- <button type="button" class="btn btn-primary">
-                            <i class="far fa-eye"></i>
-                          </button> -->
-                          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#form145">
-                            <i class="fas fa-edit"></i>
-                          </button>
-                          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteLocation145">
-                            <i class="far fa-trash-alt"></i>
-                          </button>
-                        </td>
-                      </tr>
-                      
-                      <tr>
-                        <th scope="row">146</th>
-                        <td>Alfred Nicolas Gardens</td>
-                        <td></td>
-          
-                        <td>
-                          <!-- <button type="button" class="btn btn-primary">
-                            <i class="far fa-eye"></i>
-                          </button> -->
-                          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#form146">
-                            <i class="fas fa-edit"></i>
-                          </button>
-                          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteLocation146">
-                            <i class="far fa-trash-alt"></i>
-                          </button>
-                        </td>
-                      </tr>
-                      
-                      <tr>
-                        <th scope="row">147</th>
-                        <td>Anakie</td>
-                        <td></td>
-          
-                        <td>
-                          <!-- <button type="button" class="btn btn-primary">
-                            <i class="far fa-eye"></i>
-                          </button> -->
-                          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#form147">
-                            <i class="fas fa-edit"></i>
-                          </button>
-                          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteLocation147">
-                            <i class="far fa-trash-alt"></i>
-                          </button>
-                        </td>
-                      </tr>
-                      
-                      <tr>
-                        <th scope="row">148</th>
-                        <td>Anglesea</td>
-                        <td></td>
-          
-                        <td>
-                          <!-- <button type="button" class="btn btn-primary">
-                            <i class="far fa-eye"></i>
-                          </button> -->
-                          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#form148">
-                            <i class="fas fa-edit"></i>
-                          </button>
-                          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteLocation148">
-                            <i class="far fa-trash-alt"></i>
-                          </button>
-                        </td>
-                      </tr>
-                      
-                      <tr>
-                        <th scope="row">149</th>
-                        <td>Anglesea Do Not Use</td>
-                        <td></td>
-          
-                        <td>
-                          <!-- <button type="button" class="btn btn-primary">
-                            <i class="far fa-eye"></i>
-                          </button> -->
-                          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#form149">
-                            <i class="fas fa-edit"></i>
-                          </button>
-                          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteLocation149">
-                            <i class="far fa-trash-alt"></i>
-                          </button>
-                        </td>
-                      </tr>
-                      
-                      <tr>
-                        <th scope="row">150</th>
-                        <td>Apollo Bay</td>
-                        <td></td>
-          
-                        <td>
-                          <!-- <button type="button" class="btn btn-primary">
-                            <i class="far fa-eye"></i>
-                          </button> -->
-                          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#form150">
-                            <i class="fas fa-edit"></i>
-                          </button>
-                          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteLocation150">
-                            <i class="far fa-trash-alt"></i>
-                          </button>
-                        </td>
-                      </tr>
-                      
-                      <tr>
-                        <th scope="row">127348</th>
-                        <td>Bacchus Marsh Depot</td>
-                        <td></td>
-          
-                        <td>
-                          <!-- <button type="button" class="btn btn-primary">
-                            <i class="far fa-eye"></i>
-                          </button> -->
-                          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#form127348">
-                            <i class="fas fa-edit"></i>
-                          </button>
-                          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteLocation127348">
-                            <i class="far fa-trash-alt"></i>
-                          </button>
-                        </td>
-                      </tr>
-                      
-                      <tr>
-                        <th scope="row">151</th>
-                        <td>Bacchus Marsh Office</td>
-                        <td></td>
-          
-                        <td>
-                          <!-- <button type="button" class="btn btn-primary">
-                            <i class="far fa-eye"></i>
-                          </button> -->
-                          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#form151">
-                            <i class="fas fa-edit"></i>
-                          </button>
-                          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteLocation151">
-                            <i class="far fa-trash-alt"></i>
-                          </button>
-                        </td>
-                      </tr>
-                      
-                      <tr>
-                        <th scope="row">152</th>
-                        <td>Bairnsdale</td>
-                        <td></td>
-          
-                        <td>
-                          <!-- <button type="button" class="btn btn-primary">
-                            <i class="far fa-eye"></i>
-                          </button> -->
-                          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#form152">
-                            <i class="fas fa-edit"></i>
-                          </button>
-                          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteLocation152">
-                            <i class="far fa-trash-alt"></i>
-                          </button>
-                        </td>
-                      </tr>
-                      
-                      <tr>
-                        <th scope="row">135695</th>
-                        <td>Bairnsdale (Depot)</td>
-                        <td></td>
-          
-                        <td>
-                          <!-- <button type="button" class="btn btn-primary">
-                            <i class="far fa-eye"></i>
-                          </button> -->
-                          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#form135695">
-                            <i class="fas fa-edit"></i>
-                          </button>
-                          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteLocation135695">
-                            <i class="far fa-trash-alt"></i>
-                          </button>
-                        </td>
-                      </tr>
-                                     
-                      <tr>
-                        <th scope="row">177</th>
-                        <td>Ferntree Gully</td>
-                        <td></td>
-          
-                        <td>
-                          <!-- <button type="button" class="btn btn-primary">
-                            <i class="far fa-eye"></i>
-                          </button> -->
-                          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#form177">
-                            <i class="fas fa-edit"></i>
-                          </button>
-                          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteLocation177">
-                            <i class="far fa-trash-alt"></i>
-                          </button>
-                        </td>
-                      </tr>
-                      
 
-                      
-                      <tr>
-                        <th scope="row">255</th>
-                        <td>Woodlands</td>
-                        <td></td>
-          
-                        <td>
-                          <!-- <button type="button" class="btn btn-primary">
+            <!-- Edit modal Ends -->
+
+            <div class="row">
+              <div class="col-12">
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th scope="col">ID</th>
+                      <th scope="col">Location Name</th>
+                      <th scope="col">Role Id</th>
+                      <th scope="col">Actions</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+
+                    <tr>
+                      <th scope="row">145</th>
+                      <td>Alexandra</td>
+                      <td></td>
+
+                      <td>
+                        <!-- <button type="button" class="btn btn-primary">
                             <i class="far fa-eye"></i>
                           </button> -->
-                          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#form255">
-                            <i class="fas fa-edit"></i>
-                          </button>
-                          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteLocation255">
-                            <i class="far fa-trash-alt"></i>
-                          </button>
-                        </td>
-                      </tr>
-                      
-                      <tr>
-                        <th scope="row">256</th>
-                        <td>Woori Yallock</td>
-                        <td></td>
-          
-                        <td>
-                          <!-- <button type="button" class="btn btn-primary">
+                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#form145">
+                          <i class="fa-solid fa-pen edit-icon"></i>
+                        </button>
+                        <button type="button" class="btn " data-bs-toggle="modal"
+                          data-bs-target="#deleteLocation145">
+                          <i class="fa fa-solid fa-trash delete-icon"></i>
+                        </button>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">146</th>
+                      <td>Alfred Nicolas Gardens</td>
+                      <td></td>
+
+                      <td>
+                        <!-- <button type="button" class="btn btn-primary">
                             <i class="far fa-eye"></i>
                           </button> -->
-                          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#form256">
-                            <i class="fas fa-edit"></i>
-                          </button>
-                          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteLocation256">
-                            <i class="far fa-trash-alt"></i>
-                          </button>
-                        </td>
-                      </tr>
-                      
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>Work from Home</td>
-                        <td></td>
-          
-                        <td>
-                          <!-- <button type="button" class="btn btn-primary">
+                        <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#form146">
+                          <i class="fa-solid fa-pen edit-icon"></i>
+                        </button>
+                        <button type="button" class="btn " data-bs-toggle="modal"
+                          data-bs-target="#deleteLocation146">
+                          <i class="fa fa-solid fa-trash delete-icon"></i>
+                        </button>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">147</th>
+                      <td>Anakie</td>
+                      <td></td>
+
+                      <td>
+                        <!-- <button type="button" class="btn btn-primary">
                             <i class="far fa-eye"></i>
                           </button> -->
-                          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#form1">
-                            <i class="fas fa-edit"></i>
-                          </button>
-                          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteLocation1">
-                            <i class="far fa-trash-alt"></i>
-                          </button>
-                        </td>
-                      </tr>
-                      
-                      
-                      
-                    </tbody>
-                  </table>
-                </div>
+                        <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#form147">
+                          <i class="fa-solid fa-pen edit-icon"></i>
+                        </button>
+                        <button type="button" class="btn " data-bs-toggle="modal"
+                          data-bs-target="#deleteLocation147">
+                          <i class="fa fa-solid fa-trash delete-icon"></i>
+                        </button>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">148</th>
+                      <td>Anglesea</td>
+                      <td></td>
+
+                      <td>
+                        <!-- <button type="button" class="btn btn-primary">
+                            <i class="far fa-eye"></i>
+                          </button> -->
+                        <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#form148">
+                          <i class="fa-solid fa-pen edit-icon"></i>
+                        </button>
+                        <button type="button" class="btn " data-bs-toggle="modal"
+                          data-bs-target="#deleteLocation148">
+                          <i class="fa fa-solid fa-trash delete-icon"></i>
+                        </button>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">149</th>
+                      <td>Anglesea Do Not Use</td>
+                      <td></td>
+
+                      <td>
+                        <!-- <button type="button" class="btn btn-primary">
+                            <i class="far fa-eye"></i>
+                          </button> -->
+                        <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#form149">
+                          <i class="fa-solid fa-pen edit-icon"></i>
+                        </button>
+                        <button type="button" class="btn " data-bs-toggle="modal"
+                          data-bs-target="#deleteLocation149">
+                          <i class="fa fa-solid fa-trash delete-icon"></i>
+                        </button>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">150</th>
+                      <td>Apollo Bay</td>
+                      <td></td>
+
+                      <td>
+                        <!-- <button type="button" class="btn btn-primary">
+                            <i class="far fa-eye"></i>
+                          </button> -->
+                        <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#form150">
+                          <i class="fa-solid fa-pen edit-icon"></i>
+                        </button>
+                        <button type="button" class="btn " data-bs-toggle="modal"
+                          data-bs-target="#deleteLocation150">
+                          <i class="fa fa-solid fa-trash delete-icon"></i>
+                        </button>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">127348</th>
+                      <td>Bacchus Marsh Depot</td>
+                      <td></td>
+
+                      <td>
+                        <!-- <button type="button" class="btn btn-primary">
+                            <i class="far fa-eye"></i>
+                          </button> -->
+                        <button type="button" class="btn " data-bs-toggle="modal"
+                          data-bs-target="#form127348">
+                          <i class="fa-solid fa-pen edit-icon"></i>
+                        </button>
+                        <button type="button" class="btn " data-bs-toggle="modal"
+                          data-bs-target="#deleteLocation127348">
+                          <i class="fa fa-solid fa-trash delete-icon"></i>
+                        </button>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">151</th>
+                      <td>Bacchus Marsh Office</td>
+                      <td></td>
+
+                      <td>
+                        <!-- <button type="button" class="btn btn-primary">
+                            <i class="far fa-eye"></i>
+                          </button> -->
+                        <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#form151">
+                          <i class="fa-solid fa-pen edit-icon"></i>
+                        </button>
+                        <button type="button" class="btn " data-bs-toggle="modal"
+                          data-bs-target="#deleteLocation151">
+                          <i class="fa fa-solid fa-trash delete-icon"></i>
+                        </button>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">152</th>
+                      <td>Bairnsdale</td>
+                      <td></td>
+
+                      <td>
+                        <!-- <button type="button" class="btn btn-primary">
+                            <i class="far fa-eye"></i>
+                          </button> -->
+                        <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#form152">
+                          <i class="fa-solid fa-pen edit-icon"></i>
+                        </button>
+                        <button type="button" class="btn " data-bs-toggle="modal"
+                          data-bs-target="#deleteLocation152">
+                          <i class="fa fa-solid fa-trash delete-icon"></i>
+                        </button>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">135695</th>
+                      <td>Bairnsdale (Depot)</td>
+                      <td></td>
+
+                      <td>
+                        <!-- <button type="button" class="btn btn-primary">
+                            <i class="far fa-eye"></i>
+                          </button> -->
+                        <button type="button" class="btn " data-bs-toggle="modal"
+                          data-bs-target="#form135695">
+                          <i class="fa-solid fa-pen edit-icon"></i>
+                        </button>
+                        <button type="button" class="btn " data-bs-toggle="modal"
+                          data-bs-target="#deleteLocation135695">
+                          <i class="fa fa-solid fa-trash delete-icon"></i>
+                        </button>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">177</th>
+                      <td>Ferntree Gully</td>
+                      <td></td>
+
+                      <td>
+                        <!-- <button type="button" class="btn btn-primary">
+                            <i class="far fa-eye"></i>
+                          </button> -->
+                        <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#form177">
+                          <i class="fa-solid fa-pen edit-icon"></i>
+                        </button>
+                        <button type="button" class="btn " data-bs-toggle="modal"
+                          data-bs-target="#deleteLocation177">
+                          <i class="fa fa-solid fa-trash delete-icon"></i>
+                        </button>
+                      </td>
+                    </tr>
+
+
+
+                    <tr>
+                      <th scope="row">255</th>
+                      <td>Woodlands</td>
+                      <td></td>
+
+                      <td>
+                        <!-- <button type="button" class="btn btn-primary">
+                            <i class="far fa-eye"></i>
+                          </button> -->
+                        <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#form255">
+                          <i class="fa-solid fa-pen edit-icon"></i>
+                        </button>
+                        <button type="button" class="btn " data-bs-toggle="modal"
+                          data-bs-target="#deleteLocation255">
+                          <i class="fa fa-solid fa-trash delete-icon"></i>
+                        </button>
+                      </td>
+                    </tr>
+
+                   
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
         </div>
     </div>
-</div>
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </section>
+  </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
 
 <footer>

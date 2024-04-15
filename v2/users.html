@@ -5,250 +5,258 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Numbat</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <script src="https://kit.fontawesome.com/560dca36fa.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
   <div class="container-fluid">
     <div class="row flex-nowrap">
-        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bgnav">
-            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 min-vh-100">
-                <a href="./home.html" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto ">
-                    <span class="fs-5 d-none d-sm-inline"><img src="../images/logo.png" alt="logo"></span>
-                </a>
-                <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
-                    <li class="nav-item">
-                        <a href="./home.html" class="nav-link link-light">
-                          <i class="bi bi-house-fill"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
-                        </a>
-                    </li>
+      <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bgprimary">
+        <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-3 min-vh-100">
+          <a href="./home.html" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto ">
+            <span class="fs-5 d-none d-sm-inline"><img src="../images/logo.png" alt="logo"></span>
+          </a>
+          <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+            <li class="nav-item">
+              <a href="./home.html" class="nav-link link-light">
+                <i class="bi bi-house-fill"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
+              </a>
+            </li>
 
-                    <li class="nav-item">
-                      <a href="./timesheet.html" class="nav-link link-light">
-                        <i class="bi bi-calendar-week-fill"></i> <span class="ms-1 d-none d-sm-inline">Timesheet</span>
-                      </a>
-                    </li>
+            <li class="nav-item">
+              <a href="./timesheet.html" class="nav-link link-light">
+                <i class="bi bi-calendar-week-fill"></i> <span class="ms-1 d-none d-sm-inline">Timesheet</span>
+              </a>
+            </li>
 
-                  <li class="nav-item">
-                    <a href="./users.html" class="nav-link active" id="active">
-                      <i class="bi bi-people-fill"></i> <span class="ms-1 d-none d-sm-inline">Users</span>
-                    </a>
-                  </li>
-                  
-                  <li class="nav-item">
-                    <a href="./location.html" class="nav-link link-light">
-                      <i class="bi bi-geo-alt-fill"></i> <span class="ms-1 d-none d-sm-inline">Location</span>
-                    </a>
-                  </li>
-                    
-                  <li>
-                      <a href="./activity.html" class="nav-link link-light">
-                        <i class="bi bi-activity"></i></i> <span class="ms-1 d-none d-sm-inline">Activity</span>
-                      </a>
-                  </li>
-                </ul>
+            <li class="nav-item">
+              <a href="./users.html" class="nav-link active" id="active">
+                <i class="bi bi-people-fill"></i> <span class="ms-1 d-none d-sm-inline">Users</span>
+              </a>
+            </li>
 
-                <hr>
+            <li class="nav-item">
+              <a href="./location.html" class="nav-link link-light">
+                <i class="bi bi-geo-alt-fill"></i> <span class="ms-1 d-none d-sm-inline">Location</span>
+              </a>
+            </li>
 
-                <div class="dropdown pb-4">
-                    <a href="#" class="d-flex align-items-center text-decoration-none dropdown-toggle link-light" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img src="https://github.com/mdo.png" alt="profile-photo" width="30" height="30" class="rounded-circle">
-                        <span class="d-none d-sm-inline mx-1">Name</span>
-                    </a>
+            <li>
+              <a href="./activity.html" class="nav-link link-light">
+                <i class="bi bi-activity"></i></i> <span class="ms-1 d-none d-sm-inline">Activity</span>
+              </a>
+            </li>
+          </ul>
 
-                    <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
-                        <li><a class="dropdown-item" href="#">Settings</a></li>
-                        <li><a class="dropdown-item" href="#">Profile</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Sign out</a></li>
-                    </ul>
-                </div>
-            </div>
+          <hr>
+
+
+          <div class="dropdown pb-4">
+            <a href="#" class="d-flex align-items-center text-decoration-none dropdown-toggle link-light"
+              id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="https://github.com/mdo.png" alt="profile-photo" width="30" height="30" class="rounded-circle">
+              <span class="d-none d-sm-inline mx-1">Name</span>
+            </a>
+
+            <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
+              <li><a class="dropdown-item" href="#">Settings</a></li>
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Sign out</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="col py-3">
-          <div class="container-lg">    
-            <h1>User Records</h1>
-            <div class="table-responsive">
-                <table class="table table-hover">
-                    <thead>
-                        <tr>
-                            <th scope="col">ID</th>
-                            <th scope="col">Username</th>
-                            <th scope="col">Email</th>
-                            <th scope="col">Password</th>
-                            <th scope="col">Role</th>
-                            <th scope="col">Verification Token</th>
-                            <th scope="col">Verified Email</th>
-                            <th scope="col">Edit</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        
-                            <tr>
-                                <td scope="row">1</td>
-                                <td>john@buildingbb.com.au</td>
-                                <td>john@buildingbb.com.au</td>
-                                <td>
-                                    
-                                        $2b$10$4hS...
-                                    
-                                </td>                    
-                                <td>admin</td>
-                                <td>
-                                    
-                                        null
-                                    
-                                </td>
-                                <td>true</td>
-                                <td><a href="http://localhost:3000/users/1">edit</a></td>
-                            </tr>
-                        
-                            <tr>
-                                <td scope="row">51</td>
-                                <td>todayjs@gmail.com</td>
-                                <td>todayjs@gmail.com</td>
-                                <td>
-                                    
-                                        $2b$10$pno...
-                                    
-                                </td>                    
-                                <td>user</td>
-                                <td>
-                                    
-                                        3f7c68c453...
-                                    
-                                </td>
-                                <td>true</td>
-                                <td><a href="http://localhost:3000/users/51">edit</a></td>
-                            </tr>
-                        
-                            <tr>
-                                <td scope="row">52</td>
-                                <td>john@maherco.com.au</td>
-                                <td>john@maherco.com.au</td>
-                                <td>
-                                    
-                                        $2b$10$GUY...
-                                    
-                                </td>                    
-                                <td>user</td>
-                                <td>
-                                    
-                                        added by j...
-                                    
-                                </td>
-                                <td>true</td>
-                                <td><a href="http://localhost:3000/users/52">edit</a></td>
-                            </tr>
-                        
-                            <tr>
-                                <td scope="row">53</td>
-                                <td>test@test.com</td>
-                                <td>test@test.com</td>
-                                <td>
-                                    
-                                        $2b$10$J28...
-                                    
-                                </td>                    
-                                <td>admin</td>
-                                <td>
-                                    
-                                        added by j...
-                                    
-                                </td>
-                                <td>true</td>
-                                <td><a href="http://localhost:3000/users/53">edit</a></td>
-                            </tr>
-                        
-                            <tr>
-                                <td scope="row">54</td>
-                                <td>lovelyM@protonmail.com</td>
-                                <td>lovelyM@protonmail.com</td>
-                                <td>
-                                    
-                                        $2b$10$RM2...
-                                    
-                                </td>                    
-                                <td>admin</td>
-                                <td>
-                                    
-                                        added by j...
-                                    
-                                </td>
-                                <td>true</td>
-                                <td><a href="http://localhost:3000/users/54">edit</a></td>
-                            </tr>
-                        
-                            <tr>
-                                <td scope="row">55</td>
-                                <td>mml@test.com</td>
-                                <td>mml@test.com</td>
-                                <td>
-                                    
-                                        $2b$10$Ha4...
-                                    
-                                </td>                    
-                                <td>admin</td>
-                                <td>
-                                    
-                                        added by j...
-                                    
-                                </td>
-                                <td>true</td>
-                                <td><a href="http://localhost:3000/users/55">edit</a></td>
-                            </tr>
-                        
-                            <tr>
-                                <td scope="row">56</td>
-                                <td>bryan@buildingbb.com.au</td>
-                                <td>bryan@buildingbb.com.au</td>
-                                <td>
-                                    
-                                        $2b$10$HF6...
-                                    
-                                </td>                    
-                                <td>admin</td>
-                                <td>
-                                    
-                                        added by j...
-                                    
-                                </td>
-                                <td>true</td>
-                                <td><a href="http://localhost:3000/users/56">edit</a></td>
-                            </tr>
-                        
-                            <tr>
-                                <td scope="row">57</td>
-                                <td>sadf@sdf.de</td>
-                                <td>sadf@sdf.de</td>
-                                <td>
-                                    
-                                        $2b$10$gCj...
-                                    
-                                </td>                    
-                                <td>admin</td>
-                                <td>
-                                    
-                                        added by j...
-                                    
-                                </td>
-                                <td>true</td>
-                                <td><a href="http://localhost:3000/users/57">edit</a></td>
-                            </tr>
-                        
-                    </tbody>
-                </table>
-            </div>
+      </div>
+
+
+      <section class="col py-3">
+        <div class="container pt-2 bglight">
+          <h1 class="page-title mb-4">User Records</h1>
+          <div class="table-responsive">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th scope="col">ID</th>
+                  <th scope="col">Username</th>
+                  <th scope="col">Email</th>
+                  <th scope="col">Password</th>
+                  <th scope="col">Role</th>
+                  <th scope="col">Verification Token</th>
+                  <th scope="col">Verified Email</th>
+                  <th scope="col">Edit</th>
+                </tr>
+              </thead>
+              <tbody>
+
+                <tr>
+                  <td scope="row">1</td>
+                  <td>john@buildingbb.com.au</td>
+                  <td>john@buildingbb.com.au</td>
+                  <td>
+
+                    $2b$10$4hS...
+
+                  </td>
+                  <td>admin</td>
+                  <td>
+
+                    null
+
+                  </td>
+                  <td>true</td>
+                  <td><a href="http://localhost:3000/users/1"><i class="fa-solid fa-pen edit-icon"></i></a></td>
+                </tr>
+
+                <tr>
+                  <td scope="row">51</td>
+                  <td>todayjs@gmail.com</td>
+                  <td>todayjs@gmail.com</td>
+                  <td>
+
+                    $2b$10$pno...
+
+                  </td>
+                  <td>user</td>
+                  <td>
+
+                    3f7c68c453...
+
+                  </td>
+                  <td>true</td>
+                  <td><a href="http://localhost:3000/users/51"><i class="fa-solid fa-pen edit-icon"></i></a></td>
+                </tr>
+
+                <tr>
+                  <td scope="row">52</td>
+                  <td>john@maherco.com.au</td>
+                  <td>john@maherco.com.au</td>
+                  <td>
+
+                    $2b$10$GUY...
+
+                  </td>
+                  <td>user</td>
+                  <td>
+
+                    added by j...
+
+                  </td>
+                  <td>true</td>
+                  <td><a href="http://localhost:3000/users/52"><i class="fa-solid fa-pen edit-icon"></i></a></td>
+                </tr>
+
+                <tr>
+                  <td scope="row">53</td>
+                  <td>test@test.com</td>
+                  <td>test@test.com</td>
+                  <td>
+
+                    $2b$10$J28...
+
+                  </td>
+                  <td>admin</td>
+                  <td>
+
+                    added by j...
+
+                  </td>
+                  <td>true</td>
+                  <td><a href="http://localhost:3000/users/53"><i class="fa-solid fa-pen edit-icon"></i></a></td>
+                </tr>
+
+                <tr>
+                  <td scope="row">54</td>
+                  <td>lovelyM@protonmail.com</td>
+                  <td>lovelyM@protonmail.com</td>
+                  <td>
+
+                    $2b$10$RM2...
+
+                  </td>
+                  <td>admin</td>
+                  <td>
+
+                    added by j...
+
+                  </td>
+                  <td>true</td>
+                  <td><a href="http://localhost:3000/users/54"><i class="fa-solid fa-pen edit-icon"></i></a></td>
+                </tr>
+
+                <tr>
+                  <td scope="row">55</td>
+                  <td>mml@test.com</td>
+                  <td>mml@test.com</td>
+                  <td>
+
+                    $2b$10$Ha4...
+
+                  </td>
+                  <td>admin</td>
+                  <td>
+
+                    added by j...
+
+                  </td>
+                  <td>true</td>
+                  <td><a href="http://localhost:3000/users/55"><i class="fa-solid fa-pen edit-icon"></i></a></td>
+                </tr>
+
+                <tr>
+                  <td scope="row">56</td>
+                  <td>bryan@buildingbb.com.au</td>
+                  <td>bryan@buildingbb.com.au</td>
+                  <td>
+
+                    $2b$10$HF6...
+
+                  </td>
+                  <td>admin</td>
+                  <td>
+
+                    added by j...
+
+                  </td>
+                  <td>true</td>
+                  <td><a href="http://localhost:3000/users/56"><i class="fa-solid fa-pen edit-icon"></i></a></td>
+                </tr>
+
+                <tr>
+                  <td scope="row">57</td>
+                  <td>sadf@sdf.de</td>
+                  <td>sadf@sdf.de</td>
+                  <td>
+
+                    $2b$10$gCj...
+
+                  </td>
+                  <td>admin</td>
+                  <td>
+
+                    added by j...
+
+                  </td>
+                  <td>true</td>
+                  <td><a href="http://localhost:3000/users/57"><i class="fa-solid fa-pen edit-icon"></i></a></td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
         </div>
-        </div>
+      </section>
     </div>
-</div>
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
 
 <footer>
