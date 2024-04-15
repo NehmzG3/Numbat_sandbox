@@ -25,6 +25,10 @@
   color: #fcfffc;
 }
 
+.nav-link:hover {
+  background-color: #2ba84a;
+}
+
 .btnprimary {
   background-color: #2ba84a;
   color: #fcfffc;
