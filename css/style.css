@@ -2,9 +2,10 @@
     black: #040f0f
     dark green: #248232
     primary: #2ba84a
-    gray: #d0dcdc
+    light gray: #d0dcdc
     white: #fcfffc
     slate gray #364958
+    gray: 6e899e
 */
 
 
@@ -21,12 +22,12 @@
 }
 
 #active {
-  background-color: #2ba84a;
+  background-color: #6e899e;
   color: #fcfffc;
 }
 
 .nav-link:hover {
-  background-color: #2ba84a;
+  background-color: #6e899e;
 }
 
 .btnprimary {
